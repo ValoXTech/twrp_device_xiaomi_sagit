@@ -154,8 +154,8 @@ USE_DEVICE_SPECIFIC_GPS := true
 # Init
 TARGET_PLATFORM_DEVICE_BASE := /devices/soc/
 
-# Keymaster
-TARGET_PROVIDES_KEYMASTER := true
+# Keymaster - Wait for qseecom to load
+TARGET_KEYMASTER_WAIT_FOR_QSEE := true
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
